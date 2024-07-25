@@ -1,0 +1,3 @@
+com.example.snapshottest.features.problemfeature
+id text
+layout v_test

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.snapshottest.features.problemfeature.TestViewScreenshotTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-07-25T21:05:44" hostname="Joshs-MacBook-Pro.local" time="2.152">
+  <properties/>
+  <testcase name="inflateAViewAndVerifySomething" classname="com.example.snapshottest.features.problemfeature.TestViewScreenshotTest" time="2.152"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[Jul 25, 2024 5:05:45 PM app.cash.paparazzi.internal.resources.AarSourceResourceRepository$Loader loadPublicResourceNames
+WARNING: Error reading /Users/jsmolinski/.gradle/caches/transforms-4/b933f1acc0c74f4dca84a1bdcdb70291/transformed/constraintlayout-2.1.4/public.txt: java.nio.file.NoSuchFileException: /Users/jsmolinski/.gradle/caches/transforms-4/b933f1acc0c74f4dca84a1bdcdb70291/transformed/constraintlayout-2.1.4/public.txt
+Jul 25, 2024 5:05:45 PM app.cash.paparazzi.internal.resources.AarSourceResourceRepository$Loader loadPublicResourceNames
+WARNING: Error reading /Users/jsmolinski/.gradle/caches/transforms-4/066420d7e4e66acac2c3aa8366d66e95/transformed/viewpager2-1.0.0/public.txt: java.nio.file.NoSuchFileException: /Users/jsmolinski/.gradle/caches/transforms-4/066420d7e4e66acac2c3aa8366d66e95/transformed/viewpager2-1.0.0/public.txt
+Jul 25, 2024 5:05:45 PM app.cash.paparazzi.internal.resources.AarSourceResourceRepository$Loader loadPublicResourceNames
+WARNING: Error reading /Users/jsmolinski/.gradle/caches/transforms-4/8a6f1f53b069efdeff8cb6508fe19c68/transformed/cardview-1.0.0/public.txt: java.nio.file.NoSuchFileException: /Users/jsmolinski/.gradle/caches/transforms-4/8a6f1f53b069efdeff8cb6508fe19c68/transformed/cardview-1.0.0/public.txt
+Jul 25, 2024 5:05:45 PM app.cash.paparazzi.internal.PaparazziLogger logAndroidFramework
+INFO: ThemeUtils [4]: View class androidx.appcompat.widget.AppCompatTextView is an AppCompat widget that can only be used with a Theme.AppCompat theme (or descendant).
+]]></system-err>
+</testsuite>
