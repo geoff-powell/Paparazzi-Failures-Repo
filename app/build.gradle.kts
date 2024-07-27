@@ -4,6 +4,10 @@ plugins {
     alias(libs.plugins.paparazzi)
 }
 
+tasks.withType<Test>().configureEach {
+    useJUnit()
+}
+
 android {
     namespace = "com.example.snapshottest"
     compileSdk = 34
@@ -43,5 +47,7 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    testImplementation(libs.junit)
+
+    testImplementation(libs.kotest.runner.junit)
+//    testImplementation(libs.junit)
 }
